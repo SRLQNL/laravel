@@ -185,6 +185,7 @@ class ComposerStaticInitb62bfe8056a6ac82def1fa38dcaefff7
         array (
             'Arcanedev\\Support\\' => 18,
             'Arcanedev\\LogViewer\\' => 20,
+            'App\\Http\\Controllers\\Achievements\\' => 34,
             'App\\' => 4,
         ),
     );
@@ -560,6 +561,10 @@ class ComposerStaticInitb62bfe8056a6ac82def1fa38dcaefff7
         array (
             0 => __DIR__ . '/..' . '/arcanedev/log-viewer/src',
         ),
+        'App\\Http\\Controllers\\Achievements\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app/Http/Controllers/Achievements',
+        ),
         'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
@@ -578,6 +583,7 @@ class ComposerStaticInitb62bfe8056a6ac82def1fa38dcaefff7
     );
 
     public static $classMap = array (
+        'App\\Achievement' => __DIR__ . '/../..' . '/app/Achievement.php',
         'App\\Box' => __DIR__ . '/../..' . '/app/Box.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',

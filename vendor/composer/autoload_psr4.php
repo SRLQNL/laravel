@@ -97,5 +97,6 @@ return array(
     'Brick\\Math\\' => array($vendorDir . '/brick/math/src'),
     'Arcanedev\\Support\\' => array($vendorDir . '/arcanedev/support/src'),
     'Arcanedev\\LogViewer\\' => array($vendorDir . '/arcanedev/log-viewer/src'),
+    'App\\Http\\Controllers\\Achievements\\' => array($baseDir . '/app/Http/Controllers/Achievements'),
     'App\\' => array($baseDir . '/app', $vendorDir . '/laravel/pint/app'),
 );

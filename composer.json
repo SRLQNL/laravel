@@ -33,6 +33,7 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
+            "App\\Http\\Controllers\\Achievements\\": "app/Http/Controllers/Achievements/",
             "Database\\Seeders\\": "database/seeders/"
         }
     },
